@@ -10,6 +10,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 23px;
+}
+
 a{
     text-decoration: none;
 }
@@ -58,6 +70,7 @@ main{
 
 section{
     margin: 50px 0;
+    padding: 60px 0;
 }
 
 .cards{
@@ -80,7 +93,19 @@ section{
     width: calc(100% / 3 * 2);
 }
 
+.full-bg{
+    background-color: #9792e4;
+}
+.full-bg .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 125px;
+}
 
+.full-bg .col img{
+    /* debug */
+    height: 380px;
+}
 
 
 /* regole footer */
