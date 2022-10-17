@@ -99,9 +99,13 @@ section{
 .full-bg{
     background-color: #9792e4;
 }
-.full-bg .container{
+
+.full-bg .planning{
     display: flex;
     justify-content: space-between;
+}
+
+.full-bg.different{
     padding: 0 125px;
 }
 
@@ -130,6 +134,24 @@ section{
     width: 250px;
     
 }
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    min-height: 700px;
+}
+
+.benefit{
+    width: calc(100% / 3);
+    background-color: #fff;
+    /* debug */
+    min-height: 250px;
+    border: 1px solid black;
+}
+
+
 
 /* regole footer */
 
