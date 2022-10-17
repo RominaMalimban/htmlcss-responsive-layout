@@ -151,7 +151,10 @@ section{
     border: 1px solid black;
 }
 
-
+.about{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* regole footer */
 
