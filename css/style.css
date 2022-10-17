@@ -114,7 +114,7 @@ section{
     height: 380px;
 }
 
-.intro-testimonial{
+.center{
     text-align: center;
 }
 
@@ -157,9 +157,10 @@ section{
 }
 
 /* regole footer */
-
-
-
+footer{
+    background-color: #333333;
+    color: #fff;
+}
 
 
 
