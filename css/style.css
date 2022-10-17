@@ -21,6 +21,8 @@ ul{
 .container{
     width: 80%;
     margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
 }
 
 /* regole header */
@@ -28,8 +30,11 @@ header{
     background-color: #0084fd;
     height: 75px;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 100;
+    
 }
 
 header .container{
@@ -42,8 +47,38 @@ header .container{
 header li{
     display: inline-block;
 }
+
 /* regole main */
 
+main{
+    margin: 125px 0 50px 0;
+    /* debug */
+    background-color: crimson;
+}
+
+section{
+    margin: 50px 0;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: coral ;
+    min-height: 600px;
+}
+
+.card{
+    width: calc(100% / 3);
+    background-color: #6d8599;
+    /* debug */
+    border: 1px solid black;
+    min-height: 120px;
+}
+
+.card.big{
+    width: calc(100% / 3 * 2);
+}
 
 
 
