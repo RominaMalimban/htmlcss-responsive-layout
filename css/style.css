@@ -210,17 +210,18 @@ main{
 .feedback{
     background-color: #9792e4;
     margin: 50px 0;
-    border: 1px solid #9792e4;
     border-radius: 30px;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-.feedback img{
-    width: 370px;
-    height: 250px;
-    border-radius: 50%; 
+.feedback .round-image{
+    width: 200px;
+    height: 200px;
+    
+    
+    border-radius: 50%;
 }
 
 .feedback p, .feedback span{
