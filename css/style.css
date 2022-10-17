@@ -151,10 +151,11 @@ main{
 .full-bg .planning{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .full-bg.different{
-    padding: 0 125px;
+    padding: 40px 125px;
 }
 
 .planning .col{
@@ -163,7 +164,6 @@ main{
 
 .planning .col.sx{
     color: #fff;
-    margin: 120px 0 60px 0
 }
 
 .planning .col.sx img{
