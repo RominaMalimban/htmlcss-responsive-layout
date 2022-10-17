@@ -35,7 +35,7 @@ ul{
 }
 
 .container{
-    width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
