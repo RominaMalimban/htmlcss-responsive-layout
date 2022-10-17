@@ -6,7 +6,7 @@
 }
 
 body{
-    font-size: 14px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -85,7 +85,6 @@ header .m-ctr{
 
 main{
     margin: 125px 0 50px 0;
-    /* debug */
 }
 
 section{
@@ -136,10 +135,15 @@ section{
     bottom: -30px;
 }
 
+.center{
+    text-align: center;
+}
+
 .card .big-icon{
     font-size: 80px;
     color: #0084fd ;
 }
+
 .full-bg{
     background-color: #9792e4;
 }
@@ -153,13 +157,50 @@ section{
     padding: 0 125px;
 }
 
-.full-bg .col img{
-    /* debug */
-    height: 380px;
+.planning .col{
+    width: 45%;
 }
 
-.center{
-    text-align: center;
+.planning .col.sx{
+    color: #fff;
+    margin: 120px 0 60px 0
+}
+
+.planning .col.sx img{
+    margin-bottom: 120px;
+    height: 375px;
+}
+
+.planning .col.sx h3{
+    margin-bottom: 60px;
+}
+
+.planning .col.dx{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.planning .col.dx img{
+    height: 240px;
+}
+
+.planning .col.dx a{
+    color: black;
+}
+
+.planning .col.dx i{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: #9792e4;
+    border-radius: 50%;
+}
+
+.planning .col.dx p{
+    margin: 40px 0;
 }
 
 .feedback{
