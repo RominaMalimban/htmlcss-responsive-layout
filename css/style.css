@@ -49,8 +49,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
-    
+    z-index: 100; 
 }
 
 header .container{
@@ -62,6 +61,24 @@ header .container{
 
 header li{
     display: inline-block;
+}
+
+header a{
+    color: #fff;
+}
+
+header .m-ctr{
+    margin-left: 25px;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn.bg-white{
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
 }
 
 /* regole main */
