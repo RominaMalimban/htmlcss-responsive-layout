@@ -39,8 +39,10 @@ ul{
 .container{
     max-width: 70%;
     margin: 0 auto;
-    /* debug */
-    border: 1px solid black;
+}
+
+.mb{
+    margin-bottom: 110px;
 }
 
 /* regole header */
@@ -83,17 +85,11 @@ header .m-ctr{
     color: black;
 }
 
-
-
 /* regole main */
 
 main{
     margin-top:125px;
 }
-
-/* section{
-    margin: 100px 0;
-} */
 
 .cards{
     display: flex;
@@ -225,7 +221,6 @@ main{
     width: 370px;
     height: 250px;
     border-radius: 50%; 
-    
 }
 
 .feedback p, .feedback span{
@@ -250,8 +245,7 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 -15px;
-    /* debug */
-    /* min-height: 700px; */
+    padding-bottom: 40px;
 }
 
 .benefit{
@@ -260,9 +254,6 @@ main{
     padding: 30px;
     margin: 15px;
     border-radius: 30px;
-    /* debug */
-    /* min-height: 250px; */
-    border: 1px solid black;
 }
 
 .benefit h3{
@@ -345,8 +336,8 @@ main{
 .last-section a, .last-section span{
     display: inline-block;
 }
-#orange{
 
+#orange{
     color: #fdc15f;
     font-size: 70px;
 }
@@ -381,5 +372,6 @@ footer{
     color: #9792e4;
     text-decoration: underline;
 }
+
 /****************** RESPONSIVE ************************/
 
