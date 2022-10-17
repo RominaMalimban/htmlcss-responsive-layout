@@ -16,6 +16,8 @@ img{
 
 h2{
     font-size: 35px;
+    color: #9792e4;
+    
 }
 
 h3{
@@ -80,6 +82,8 @@ header .m-ctr{
     background-color: #fff;
     color: black;
 }
+
+
 
 /* regole main */
 
@@ -204,7 +208,6 @@ section{
 }
 
 #testimonials h2{
-    color: #9792e4;
     margin: 40px 0;
 }
 
@@ -262,7 +265,7 @@ section{
     border: 1px solid black;
 }
 
-.benefit h2, .benefit h3{
+.benefit h3{
     color: #9792e4;
 }
 
@@ -277,9 +280,52 @@ section{
     margin-top: 20px;
 }
 
-.about{
+#about-us{
     display: flex;
     justify-content: space-between;
+}
+
+.text-about{
+    width: 60%;
+}
+
+.img-about{
+    width: 30%;
+}
+
+.text-about .mg{
+    margin: 40px 0;
+}
+
+.img-about img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.quote{
+    position: relative;
+    top: 0;
+    right: 0;
+    
+}
+.img-about .fa-quote-left{
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 130px;
+}
+
+.img-about p{
+    margin: 20px 0 ;
+    font-size: 20px;
+}
+
+
+.txt-violet{
+    color: #9792e4;
 }
 
 /* regole footer */
