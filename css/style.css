@@ -328,6 +328,39 @@ section{
     color: #9792e4;
 }
 
+.last-section{
+    padding: 60px 0;
+    color: #fff;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#light{
+    color: #ceccf2;
+}
+
+.last-section a, .last-section span{
+    display: inline-block;
+}
+#orange{
+
+    color: #fdc15f;
+    font-size: 70px;
+}
+
+.mg{
+    margin: 20px 0;
+}
+
+.white{
+    color:#9792e4;
+    background-color: #fff;
+}
+
+.decorated{
+    color: white;
+    text-decoration: underline;
+}
 /* regole footer */
 footer{
     background-color: #333333;
