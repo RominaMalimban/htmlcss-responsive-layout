@@ -36,7 +36,8 @@ ul{
 }
 
 .container{
-    max-width: 70%;
+    max-width: 1400px;
+    width: 70%;
     margin: 0 auto;
 }
 
