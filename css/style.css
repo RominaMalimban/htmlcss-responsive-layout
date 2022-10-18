@@ -111,6 +111,7 @@ main{
 .card.big{
     width: calc((100% / 3 - 20px) * 2);
     display: flex;
+    position: relative;
 }
 
 .card.big div{
@@ -134,8 +135,8 @@ main{
 .card.big img{
     height: 270px;
     padding: 0 50px;
-    position: relative;
-    bottom: -30px;
+    align-self: flex-end;
+    
 }
 
 .center{
@@ -406,6 +407,7 @@ footer{
     }
 
     /* main section 1 */
+
     .card.big{
         display: block;
     }
@@ -415,10 +417,12 @@ footer{
     }
 
     .card.big img{
-        padding: 0 ;
+        padding: 50px 0 0 ;
+        
     }
 
     /* main section 2 */
+
     .full-bg .planning{
         display: block;
     }
@@ -455,6 +459,89 @@ footer{
     #about-us .text-about, #about-us .img-about{
         width: 45%;
     }
+}
+
+/* smartphone version */
+
+@media screen and (max-width: 480px) {
+
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
     
-   
+    /* main section 1 */
+    .cards{
+        display: block;  
+    }
+
+    .card, .card.big{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* main section 2 */
+    .planning .col.sx img{
+        height: 292px;
+        
+        margin-bottom: 80px;
+    }
+    
+    .planning .col.dx img{
+        height: 273px;
+    }
+
+    /* main section 3 */
+    .feedback{
+        display: block;
+        text-align: center;
+    }
+
+    .feedback .description{
+        margin-left: 0;
+    }
+    
+    .feedback .description p{
+        margin: 20px 0;
+    }
+    
+    /* main section 4 */
+
+    .benefits{
+        display: block;
+        padding-bottom: 40px;
+    }
+    
+    .benefit{
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    
+    /* main section 5 */
+
+    #about-us{
+        display: block;
+    }
+    
+    #about-us .text-about{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    #about-us .img-about{
+        width: 100%;
+    }
+    
+    #about-us .quote{
+        width: 200px;
+        height: 200px;
+    }
+    
+    /* main section 6 */
+
+    .smaller-container{
+        width: 80%; 
+    }
 }
