@@ -220,11 +220,10 @@ main{
     padding: 20px;
 }
 
-.feedback .round-image{
-    width: 200px;
-    height: 200px;
-    
-    
+.feedback img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
