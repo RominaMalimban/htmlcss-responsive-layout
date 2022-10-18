@@ -7,7 +7,7 @@
 
 body{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 img{
@@ -24,7 +24,7 @@ h3{
 }
 
 h4{
-    font-size: 23px;
+    font-size: 22px;
 }
 
 a{
@@ -288,8 +288,8 @@ main{
 }
 
 #about-us .quote{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-image: url("../img/about.jpg");
     background-size: cover;
@@ -533,8 +533,8 @@ footer{
     }
     
     #about-us .quote{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     
     /* main section 6 */
