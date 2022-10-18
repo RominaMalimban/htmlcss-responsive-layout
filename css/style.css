@@ -379,6 +379,10 @@ footer{
 
 @media screen and (max-width: 880px){
 
+    .container{
+        max-width: 90%;
+    }
+
     /* header */
     #menu-desktop{
         display: none;
@@ -386,5 +390,18 @@ footer{
     
     #menu-mobile{
         display: block;
+    }
+
+    /* main section 1 */
+    .card.big{
+        display: block;
+    }
+
+    .card.big div{
+        width: 100%;
+    }
+
+    .card.big img{
+        padding: 0 ;
     }
 }
