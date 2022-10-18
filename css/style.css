@@ -444,5 +444,10 @@ footer{
         height: 570px;
     }
     
+    /* main section 4 */
+
+    .benefit{
+        width: calc(100% / 2 - 30px);
+    }
     
 }
