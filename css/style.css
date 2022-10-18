@@ -94,6 +94,8 @@ main{
     margin-top:125px;
 }
 
+/* section 1 */
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -133,7 +135,7 @@ main{
 }
 
 .card.big img{
-    height: 270px;
+    height: 280px;
     padding: 0 50px;
     align-self: flex-end;
 }
@@ -146,6 +148,8 @@ main{
     font-size: 80px;
     color: #0084fd ;
 }
+
+/* section 2 */
 
 .full-bg{
     background-color: #9792e4;
@@ -206,6 +210,7 @@ main{
     margin: 40px 0;
 }
 
+/* section 3 */
 #testimonials h2{
     margin: 40px 0;
 }
@@ -238,6 +243,7 @@ main{
     margin-bottom: 40px;
 }
 
+/* section 4 */
 #white-title{
     color: #fff;
     padding: 40px 0;
@@ -273,6 +279,8 @@ main{
     color: white;
     margin-top: 20px;
 }
+
+/* section 5 */
 
 #about-us{
     display: flex;
@@ -317,6 +325,8 @@ main{
     color: #9792e4;
 }
 
+/* section 6 */
+
 .last-section{
     padding: 60px 0;
     color: #fff;
@@ -354,7 +364,6 @@ main{
     color: white;
     text-decoration: underline;
 }
-
 
 /* regole footer */
 footer{
