@@ -279,11 +279,11 @@ main{
     justify-content: space-between;
 }
 
-.text-about{
+#about-us .text-about{
     width: 70%;
 }
 
-.img-about{
+#about-us .img-about{
     width: 25%;
 }
 
@@ -450,4 +450,11 @@ footer{
         width: calc(100% / 2 - 30px);
     }
     
+    /* main section 5 */
+
+    #about-us .text-about, #about-us .img-about{
+        width: 45%;
+    }
+    
+   
 }
