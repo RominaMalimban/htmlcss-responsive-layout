@@ -281,43 +281,38 @@ main{
 }
 
 .text-about{
-    width: 60%;
+    width: 70%;
 }
 
 .img-about{
-    width: 30%;
+    width: 25%;
+}
+
+#about-us .quote{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.quote .fa-quote-left{
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
 }
 
 .text-about .mg{
     margin: 40px 0;
 }
 
-.img-about img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    
-}
-
-.quote{
-    position: relative;
-    top: 0;
-    right: 0;
-    
-}
-.img-about .fa-quote-left{
-    display: inline-block;
-    font-size: 40px;
-    position: absolute;
-    top: 0;
-    right: 130px;
-}
-
 .img-about p{
     margin: 20px 0 ;
     font-size: 20px;
 }
-
 
 .txt-violet{
     color: #9792e4;
@@ -333,6 +328,7 @@ main{
     width: 45%;
     margin: 0 auto;
 }
+
 #light{
     color: #ceccf2;
 }
