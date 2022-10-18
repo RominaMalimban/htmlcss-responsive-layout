@@ -99,21 +99,20 @@ main{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -20px;
+    margin: 0 -15px;
 }
 
 .card{
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 30px);
     background-color: #b5ddff;
     border-radius: 30px;
-    margin: 0 20px 20px 20px;
+    margin: 0 15px 30px 15px;
     padding: 30px;
 }
 
 .card.big{
-    width: calc((100% / 3 - 20px) * 2);
+    width: calc((100% / 3 - 15px) * 2);
     display: flex;
-   
 }
 
 .card.big div{
@@ -134,10 +133,13 @@ main{
     margin: 30px 0;
 }
 
-.card.big img{
-    height: 280px;
-    padding: 0 50px;
+.card.big .btm-img{
+    display: flex;
+}
+
+.card.big .btm-img img{
     align-self: flex-end;
+    margin-bottom: -30px;
 }
 
 .center{
@@ -329,8 +331,7 @@ main{
 
 .last-section{
     padding: 60px 0;
-    color: #fff;
-    
+    color: #fff;   
 }
 
 .smaller-container{
@@ -389,18 +390,6 @@ footer{
 
     /* regole generali */
 
-    h2{
-        font-size: 40px;
-    }
-    
-    h3{
-        font-size: 30px;
-    }
-    
-    h4{
-        font-size: 28px;
-    }
-
     .container{
         max-width: 90%;
     }
@@ -428,6 +417,9 @@ footer{
         padding: 50px 0 0 ;
     }
 
+    .card h3{
+        font-size: 20px;
+    }
     /* main section 2 */
 
     .full-bg .planning{
@@ -449,8 +441,14 @@ footer{
     
     .planning .col.sx h3{
         margin-bottom: 60px;
+        font-size: 60px;
     }
     
+    /* main section 3 */
+    #testimonials h2{
+        font-size: 45px;
+    }
+
     .planning .col.dx img{
         height: 570px;
     }
@@ -461,10 +459,18 @@ footer{
         width: calc(100% / 2 - 30px);
     }
     
+    #features h2{
+        font-size: 45px;
+    }
+
     /* main section 5 */
 
     #about-us .text-about, #about-us .img-about{
         width: 45%;
+    }
+
+    #about-us h2{
+        font-size: 45px;
     }
 }
 
